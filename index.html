@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC - BYJU'S Tution Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald:wght@300&family=Roboto&family=Roboto+Slab:wght@400;500&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+<!-- --------------------------------Navbar----------------------------- -->
+<header>
+    <nav>
+        <img src="images/btc-logo.png" alt="Logo">
+        <div class="navbar" id="navbar">
+            <i class="fa-solid fa-xmark ico-nav" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Study Materials<i class="fa-solid fa-caret-down"></i></a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">find a center</a></li>
+                <li><a href="#">programs</a></li>
+                <li><a href="#">success stories</a></li>
+                <li><a href="#" id="login">login</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone" id="call"></i></a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars ico-nav" onclick="showMenu()"></i>
+    </nav> <hr class="hr1">
+
+    <div class="drop">
+        <ul>
+            <li><a href="#">Tution in North Zone</a></li>
+            <li><a href="#">Tution in West Zone</a></li>
+            <li id="last-sec"><a href="#">Tution in East Zone</a></li>
+            <li id="last-first"><a href="#">Tution in South Zone</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- -----------------------------------banner section---------------------------------- -->
+
+<section>
+<div class="slider-container">
+    <div class="slider">
+      <img src="images/banner-1.png" alt="Image 1">
+      <img src="images/banner-2.png" alt="Image 2">
+      <img src="images/banner-3.png" alt="Image 3">
+      <img src="images/banner-4.png" alt="Image 4">
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+</section>
+
+<!-- -----------------------------Detail Section---------------------------------- -->
+
+<section>
+    <div class="container">
+        <h1>Welcome to a new way of learning</h1>
+        <p>BYJU’S Tuition Centre is a network of tech-enabled classroom centres spread throughout the country <br> with an aim to transform the future of learning.</p>
+    </div>
+</section>
+
+<section id="flex">
+    <div class="flex">
+        <div class="left"><img src="images/sideimg-1.webp" alt="Image"></div>
+        <div class="left"><img src="images/sideimg-2.webp" alt="Image"></div>
+    </div>
+</section>
+
+
+<!-- --------------------------------Table Content Section----------------------- -->
+
+<section>
+    <div class="info">
+        <h1>Programs at BYJU’S Tuition Centre</h1>
+    </div>
+    <div class="bg-context">
+        <h1>A unique combination of…</h1>
+        <div class="box">
+            <div class="sub-box">
+                <h1 class="left">OFFLINE LEARNING <br> at Centre</h1>
+                <h3>Face-to-face Interaction at Tuition <br> Centre</h3>
+                <p class="l-s">Attend classes at physical Tuition Centre</p>
+                <p class="l-s">State of the art classrooms equipped with latest technology</p>
+                <p class="l-s">Pen & paper homework including subjective assessments</p>
+            </div>
+            <div class="sub-box">
+                <h1 class="right">ONLINE LEARNING <br> at Home</h1>
+                <h3>‘Two-Teacher’ Model Ensuring <br> Conceptual Clarity</h3>
+                <p class="r-s">Concepts taught by top teachers</p>
+                <p class="r-s">High quality video lessons used to simplify concepts</p>
+                <p class="r-s">Live doubt resolution and personal attention from the second teacher</p>
+            </div>
+        </div>
+        <a href="#">Know More</a>
+        <a id="add">+</a>
+    </div>
+</section>
+
+
+<!-- --------------------------------branch------------------------------------------- -->
+<section>
+    <div class="container">
+        <h1>Find a centre near you</h1>
+        <p>Look for your nearest centre to provide your child with an all-inclusive classroom experience <br>Use your current location or Select your city</p>
+    </div>
+
+    <div class="mapwork">
+        <div class="map_centre">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113996.47098496524!2d83.32133702983303!3d26.76384450693148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0c332489%3A0x1ff3f97fdcc6bfa2!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700837412081!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map_centre centre">
+            <p>Current Location</p>
+            <img src="images/btc_center_photos_1.webp" alt="Center Photo" class="center-img">
+            <h1>Our Branches</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam!
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="infor">
+    <div class="container">
+        <h1>The BYJU’S Tuition Centre Advantage</h1>
+        <p>Why is this the best learning programme to improve your child’s academic performance?</p>
+    </div>
+    <div class="information_box">
+        <div class="infor-box ib1">
+            <h2>Features</h2>
+            <ul>
+                <li>Number of teachers in a class</li>
+                <hr>
+                <li>Personalised attention</li>
+                <hr>
+                <li>Teaching format</li>
+                <hr>
+                <li>Doubt solving</li>
+                <hr>
+                <li>Parent-teacher meetings</li>
+            </ul>
+        </div>
+        <div class="infor-box ib2">
+            <h2>Regular Tuitions</h2>
+            <ul>
+                <li>Single teacher teaching concepts <br> and solving doubts</li>
+                <hr>
+                <li>Personalised attention is hard to <br> achieve with a big batch of <br> students</li>
+                <hr>
+                <li>Traditional chalk and talk method</li>
+                <hr>
+                <li>Doubts remain unsolved in crowded tuition classes</li>
+                <hr>
+                <li>Parents do not get regular updates on their child’s progress</li>
+            </ul>
+        </div>
+        <div class="infor-box ib3">
+            <h2>BYJU’S Tuition <br> Centre</h2>
+            <ul>
+                <li>2 teachers – one for teaching concepts & one for personalised attention & doubt resolution in classroom</li>
+                <hr>
+                <li>Students get personalised attention with two teachers</li>
+                <hr>
+                <li>Tech-enabled comprehensive classroom lessons for complete learning</li>
+                <hr>
+                <li>Instant doubt resolution in the class by our expert teachers</li>
+                <hr>
+                <li>Mentor guidance and assessment reports are provided in monthly PTMs</li>
+            </ul>
+        </div>
+    </div>
+    <div class="foot-infor-cont">
+        <h1>BYJU’S Tuition Centres (BTCs)</h1>
+        <p>
+            BYJU’S Tuition Centres is an initiative of BYJU’S to propel quality education at affordable rates via easy accessibility. We have set up many BYJU’S Tuition Centres in different cities across India. While our aim is to provide tuition classes that help students score well in academics. We also prioritise the development of critical thinking and concept-building. It prepares our students with excellent problem-solving abilities required in competitive exams conducted outside schools. 
+        </p><br>
+
+        <p>
+            We offer tuition classes in two of the most important subjects at school - Maths and Science. Since these two subjects need strategic teaching methods to explain concepts and develop skills related to problem-solving, we use a lot of advanced teaching aids that use high-end technology to present explanations of concepts and examples more visually. This helps our students learn various concepts in Science and Maths by relating those to easily observable phenomena in their daily lives.
+        </p>
+
+        <h4>Prominent features of BYJU’S Tuition Centres (BTCs): </h4>
+        <ul>
+            <li>We offer Tuition classes for grades 4 to 10</li>
+            <li>Tuition classes are offered for students from CBSE, ICSE and other selected state boards across the country. </li>
+            <li>Offline classes can be easily accessed by students living within a radius of 5 kilometres around our tuition centres.
+            </li>
+            <li>Apart from school assessments, we also prepare students for other kinds of competitive exams.</li>
+        </ul>
+
+        <p id="para-foot">Unique Features of BYJU’S Tuition Centres:</p>
+
+        <h5>Hybrid Classes</h5>
+        <p>
+            Our tuition centres offer classes in a hybrid mode. Students can access both online and offline classes according to their convenience. This provides relaxation in students’ daily schedules - making them more energetic and enthusiastic about learning.
+        </p>
+        <h5>Two- teacher Model in Online Classes</h5>
+        <p>
+            Our online classes have a two-teacher model, which means that after a complete session on explanations and concept building, we provide a second session where there is another teacher to address your child's doubts and queries. If they still have doubts/queries after this session, they can always resolve those at our offline classes at their registered BYJU’S Tuition Centres (BTCs).
+        </p>
+        <h5>Track Record of Performance for Analysis </h5>
+        <p>
+            At BYJU’S Tuition Centres, tutors are constantly testing, analysing and assessing your child's progress. This information is passed on to parents accordingly with suggestions and remedial measures for regular improvement.
+        </p>
+        <h5>Personalised Attention to Students</h5>
+        <p>
+            We are all for a healthy learning environment. Teachers at BTCs maintain cordial relationships with students so that there is no gap in communication from their end. Furthermore, each student gets personalised attention from teachers who help them bridge learning gaps and learn more than what is merely given in the syllabus. 
+        </p><br>
+        <p>
+            BYJU’S Tuition Centres deliver tuition classes in a hybrid mode. With our teachers' dedicated attention towards students, learning has become more exciting and encouraging than ever. BYJU’S aims to revolutionise the teaching of Maths and Science. We want to reach out to every child to prepare them for the success they have always dreamed of. 
+        </p><br>
+        <p><a href="#">Join us</a> in this journey of success and enlightenment to help every child discover their true potential.</p>
+    </div>
+</section>
+
+<!-- -------------------------------------footer----------------------------------------- -->
+
+<footer>
+    <div class="foot-top">
+        <div class="foot-divs">
+            <h5>Courses</h5>
+            <ul>
+                <li><a href="#">CBSE</a></li>
+                <li><a href="#">ICSE</a></li>
+                <li><a href="#">CAT</a></li>
+                <li><a href="#">IAS</a></li>
+                <li><a href="#">JEE</a></li>
+                <li><a href="#">NEET</a></li>
+                <li><a href="#">COMMERCE</a></li>
+                <li><a href="#">JEE MAIN</a></li>
+                <li><a href="#">NCERT</a></li>
+                <li><a href="#">JEE ADVANCE</a></li>
+                <li><a href="#">UPSC Prelims 2022 Question <br> Paper</a></li>
+                <li><a href="#">UPSC Prelims 2022 Answer <br> Key</a></li>
+                <li><a href="#">IAS Coaching</a></li>
+                <li><a href="#">CBSE Sample Papers</a></li>
+                <li><a href="#">CBSE Question Papers</a></li>
+            </ul>
+        </div>
+        <div class="foot-divs">
+            <h5>Exams</h5>
+            <ul>
+                <li><a href="#">CAT Exam</a></li>
+                <li><a href="#">CAT 2023</a></li>
+                <li><a href="#">GATE Exam</a></li>
+                <li><a href="#">GATE 2024</a></li>
+                <li><a href="#">IAS Exam</a></li>
+                <li><a href="#">UPSC Exam</a></li>
+                <li><a href="#">UPSC Syllabus</a></li>
+                <li><a href="#">UPSC 2023</a></li>
+                <li><a href="#">Bank Exam</a></li>
+                <li><a href="#">Government Exams</a></li>
+                <li><a href="#">Education News</a></li>
+                <h3>CLASSES</h3>
+                <li><a href="#">Kids Learning</a></li>
+                <li><a href="#">Class 1st - 3rd</a></li>
+                <li><a href="#">Class 4th - 5th</a></li>
+                <li><a href="#">Class 6th - 10th</a></li>
+                <li><a href="#">Class 11th - 12th</a></li>
+                <li><a href="#">BYJU'S Tuition Centre</a></li>
+            </ul>
+        </div>
+        <div class="foot-divs">
+            <h5>Exam Preparations</h5>
+            <ul>
+                <li><a href="#">Free CAT Prep</a></li>
+                <li><a href="#">Free IAS Prep</a></li>
+                <li><a href="#">Maths</a></li>
+                <li><a href="#">Physics</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Biology</a></li>
+                <li><a href="#">JEE 2024</a></li>
+                <li><a href="#">JEE Advanced 2023 Question <br> Paper with Answers</a></li>
+                <li><a href="#">JEE Main Mock Test</a></li>
+                <li><a href="#">JEE Main 2023 Question <br> Papers with Answers</a></li>
+                <li><a href="#">JEE Main 2022 Question <br> Papers with Answers</a></li>
+                <li><a href="#">JEE Advanced 2022 Question <br> Paper with Answers</a></li>
+                <li><a href="#">NEET 2023 Question Paper</a></li>
+                <li><a href="#">NEET 2023 Question Paper <br> Analysis</a></li>
+                <li><a href="#">NEET 2022 Answer Key</a></li>
+                <h3>RESOURCES</h3>
+                <li><a href="#">CAT College Predictor</a></li>
+                <li><a href="#">Worksheets</a></li>
+                <li><a href="#">BYJU'S Answer</a></li>
+                <li><a href="#">DSSL</a></li>
+                <li><a href="#">Home Tuition</a></li>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Calculators</a></li>
+                <li><a href="#">Formulas</a></li>
+            </ul>
+        </div>
+        <div class="foot-divs">
+            <h5>Company</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact our Financial <br> Partners</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">BYJU'S in Media</a></li>
+                <li><a href="#">Social Initiative - Education <br> for All</a></li>
+                <li><a href="#">BYJU'S APP</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Students Stories - The <br> Learning Tree</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Faces of BYJU'S – Life at <br> BYJU'S</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">BYJU'S Give</a></li>
+                <h3>FOLLOW US</h3>
+                <a href="#"><i class="fa-brands fa-facebook-f icon"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin icon"></i></a><br>
+            </ul>
+        </div>
+        <div class="foot-divs">
+            <h5>FREE TEXTBOOK SOLUTIONS</h5>
+            <ul>
+                <li><a href="#">NCERT Solutions</a></li>
+                <li><a href="#">NCERT Exemplar</a></li>
+                <li><a href="#">NCERT Solutions for Class 6</a></li>
+                <li><a href="#">NCERT Solutions for Class 7</a></li>
+                <li><a href="#">NCERT Solutions for Class 8</a></li>
+                <li><a href="#">NCERT Solutions for Class 9</a></li>
+                <li><a href="#">NCERT Solutions for Class 10</a></li>
+                <li><a href="#">NCERT Solutions for Class 11</a></li>
+                <li><a href="#">NCERT Solutions for Class 11 English</a></li>
+                <li><a href="#">NCERT Solutions for Class 12 English</a></li>
+                <li><a href="#">NCERT Solutions for Class 12</a></li>
+                <li><a href="#">RD Sharma Solutions</a></li>
+                <li><a href="#">RD Sharma Class 10 Solutions</a></li>
+                <li><a href="#">ICSE Selina Solutions</a></li>
+            </ul>
+        </div>
+        <div class="foot-divs">
+            <h5>State Boards</h5>
+            <ul>
+                <li><a href="#">Maharashtra</a></li>
+                <li><a href="#">Gujarat</a></li>
+                <li><a href="#">Tamil Nadu</a></li>
+                <li><a href="#">Karnataka</a></li>
+                <li><a href="#">Kerala</a></li>
+                <li><a href="#">Andhra Pradesh</a></li>
+                <li><a href="#">Telangana</a></li>
+                <li><a href="#">Uttar Pradesh</a></li>
+                <li><a href="#">Bihar</a></li>
+                <li><a href="#">Rajasthan</a></li>
+                <li><a href="#">Madhya Pradesh</a></li>
+                <li><a href="#">West Bengal</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="foot-bottom"></div>
+</footer>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+@media screen and (max-width:1230px){
+    nav img{
+        width: 200px;
+    }
+    .navbar ul li a{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .slider-container{
+        height: auto;
+    }
+    .bg-context .box .sub-box h1{
+        padding: 15px;
+    }
+    .bg-context .box .sub-box h1{
+        padding: 18px;
+        font-size: 28px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:931px){
+    nav img{
+        width: 160px;
+    }
+    .navbar ul li a{
+        padding: 8px 6px;
+        font-size: 11px;
+    }
+    .container{
+        padding-top: 70px;
+    }
+    .container h1{
+        font-size: 33px;
+        letter-spacing: .77px;
+    }
+    .container p{
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .bg-context .box .sub-box h1{
+        padding: 18px;
+        font-size: 28px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .foot-top{
+        width: 98%;
+        margin: auto;
+    }
+    .foot-top .foot-divs h5{
+        font-size: 13px;
+    }
+    .foot-top .foot-divs ul li a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:790px){
+    nav img{
+        width: 270px;
+    }
+    nav .fa-bars{
+        display: block;
+        position: relative;
+        left: -77%;
+        cursor: pointer;
+        color: blue;
+        /* z-index: 100; */
+    }
+    .navbar ul li{
+        display: block;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .navbar ul li a{
+        color: white;
+    }
+    .navbar{
+        position: absolute;
+        top: 0;
+        left: -120vw;
+        height: 100vh;
+        z-index: 100;
+        width: 100vw;
+        background-color: rgb(158, 86, 225);
+        text-align: left;
+        color: white;
+        transition: all 0.3s linear;
+    }
+    nav .fa-xmark{
+        display: block;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .drop ul li a{
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    button{
+        padding: 8px 12px;
+    }
+    .container h1{
+        font-size: 31px;
+        letter-spacing: .77px;
+    }
+    .container p{
+        padding-top: 30px;
+        font-size: 13px;
+    }
+    .info h1{
+        font-size: 33px;
+        letter-spacing: .77px;
+    }
+    .navbar ul li{
+        position: relative;
+    }
+    .navbar ul li::after{
+        width: 0%;
+        background-color: #ffc846;
+        height: 2px;
+        position: absolute;
+        top: 30px;
+        transition: all 0.29s linear;
+    }
+    .navbar ul li:hover::after{
+        width: 20%;
+    }
+    .navbar ul li:nth-child(7)::after{
+        content: "";
+        background-color: rgb(158, 86, 225);
+    }
+    .navbar ul li:nth-child(8)::after{
+        content: "";
+        background-color: rgb(158, 86, 225)
+    }
+    .information_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-infor-cont h1{
+        font-size: 25px;
+    }
+    .foot-infor-cont p{
+        font-size: 15px;
+    }
+    .mapwork{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapwork .mapwork-centre iframe{
+        width: 200%;
+    }
+}
+
+@media screen and (max-width:730px){
+    .bg-context .box .sub-box h1{
+        padding: 18px;
+        font-size: 18px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .bg-context .box .sub-box h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:645px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .drop ul li a{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .container h1{
+        font-size: 27px;
+        letter-spacing: .77px;
+    }
+    .container p{
+        padding-top: 30px;
+        font-size: 11px;
+    }
+    .foot-top .foot-divs{
+        width: 50%;
+        flex-wrap: wrap;
+        flex-basis: 45%;
+    }
+    .info h1{
+        font-size: 25px;
+        letter-spacing: .77px;
+    }
+}
+
+@media screen and (max-width:600px){
+    footer{
+        text-align: center;
+    }
+    .foot-top{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot-top .foot-divs{
+        width: 90%;
+    }
+    .foot-top .foot-divs ul h3{
+        text-align: center;
+        font-size: 20px;
+    }
+    .foot-top .foot-divs ul li a{
+        font-size: 15px;
+    }
+    .foot-top .foot-divs h5{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .drop ul li a{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    button{
+        padding: 6px 10px;
+    }
+    .container h1{
+        font-size: 22px;
+        letter-spacing: .77px;
+    }
+    .container p{
+        padding-top: 20px;
+        font-size: 11px;
+    }
+    .info h1{
+        font-size: 22px;
+        letter-spacing: .77px;
+    }
+    .bg-context .box .sub-box h1{
+        padding: 18px;
+        font-size: 15px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    .bg-context .box .sub-box h3{
+        font-size: 12px;
+    }
+    .bg-context .box{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:501px){
+    .drop ul li a{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    #last-sec{
+        margin-top: 30px;
+    }
+    button{
+        padding: 4px 8px;
+    }
+    .bg-context .box .sub-box h1{
+        padding: 15px;
+        font-size: 13px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    .bg-context .box .sub-box h3{
+        font-size: 9px;
+    }
+    .bg-context h1{
+        font-size: 18px;
+    }
+    .bg-context a{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    #add{
+        padding: 15px;
+        font-size: 40px;
+        height: 80px;
+        width: 80px;
+        line-height: 40px;
+        top: -40%;
+        left: -60px;
+    }
+    nav img{
+        width: 220px;
+    }
+    nav .fa-bars{
+        display: block;
+        position: relative;
+        left: -79%;
+        cursor: pointer;
+        color: blue;
+        /* z-index: 100; */
+    }
+}
+@media screen and (max-width:368px){
+    nav img{
+        width: 190px;
+    }
+    nav .fa-bars{
+        display: block;
+        position: relative;
+        left: -80%;
+        cursor: pointer;
+        color: blue;
+        /* z-index: 100; */
+    } 
+}
+@media screen and (max-width:330px){
+    .drop ul li a{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    #last-sec{
+        margin-top: 30px;
+    } 
+    .bg-context .box .sub-box h1{
+        padding: 15px;
+        font-size: 10px;
+    }
+    .bg-context .box .sub-box .l-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    .bg-context .box .sub-box .r-s{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    .bg-context .box .sub-box h3{
+        font-size: 9px;
+    }
+    .bg-context h1{
+        font-size: 15px;
+    }
+    .bg-context a{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    nav img{
+        width: 150px;
+        float: left;
+    }
+    nav .fa-bars{
+        display: block;
+        position: relative;
+        left: -79%;
+        cursor: pointer;
+        color: blue;
+        /* z-index: 100; */
+    } 
+}
